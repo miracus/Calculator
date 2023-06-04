@@ -71,6 +71,7 @@
             bComma.TabIndex = 23;
             bComma.Text = ",";
             bComma.UseVisualStyleBackColor = true;
+            bComma.MouseClick += bComma_Click;
             // 
             // b0
             // 
@@ -96,6 +97,7 @@
             bSighInverse.TabIndex = 21;
             bSighInverse.Text = "+/-";
             bSighInverse.UseVisualStyleBackColor = true;
+            bSighInverse.MouseClick += bSighInverse_Click;
             // 
             // b3
             // 
@@ -199,6 +201,7 @@
             bPow2.TabIndex = 13;
             bPow2.Text = "x²";
             bPow2.UseVisualStyleBackColor = true;
+            bPow2.MouseClick += bPow2_Click;
             // 
             // bOneDivX
             // 
@@ -211,6 +214,7 @@
             bOneDivX.TabIndex = 12;
             bOneDivX.Text = "1/x";
             bOneDivX.UseVisualStyleBackColor = true;
+            bOneDivX.MouseClick += bOneDivX_Click;
             // 
             // bCE
             // 
@@ -236,6 +240,7 @@
             bPercent.TabIndex = 10;
             bPercent.Text = "%";
             bPercent.UseVisualStyleBackColor = true;
+            bPercent.MouseClick += bPercent_Click;
             // 
             // cBackSpace
             // 
@@ -248,6 +253,7 @@
             cBackSpace.TabIndex = 0;
             cBackSpace.Text = "del";
             cBackSpace.UseVisualStyleBackColor = true;
+            cBackSpace.MouseClick += cBackSpace_Click;
             // 
             // bDiv
             // 
@@ -260,6 +266,7 @@
             bDiv.TabIndex = 1;
             bDiv.Text = "/";
             bDiv.UseVisualStyleBackColor = true;
+            bDiv.MouseClick += bDiv_Click;
             // 
             // bMul
             // 
@@ -272,6 +279,7 @@
             bMul.TabIndex = 2;
             bMul.Text = "*";
             bMul.UseVisualStyleBackColor = true;
+            bMul.MouseClick += bMul_Click;
             // 
             // bSub
             // 
@@ -284,6 +292,7 @@
             bSub.TabIndex = 3;
             bSub.Text = "-";
             bSub.UseVisualStyleBackColor = true;
+            bSub.MouseClick += bSub_Click;
             // 
             // bAdd
             // 
@@ -296,6 +305,7 @@
             bAdd.TabIndex = 4;
             bAdd.Text = "+";
             bAdd.UseVisualStyleBackColor = true;
+            bAdd.MouseClick += bAdd_Click;
             // 
             // bResult
             // 
@@ -309,6 +319,7 @@
             bResult.TabIndex = 5;
             bResult.Text = "=";
             bResult.UseVisualStyleBackColor = true;
+            bResult.MouseClick += bResult_Click;
             // 
             // labelField2
             // 
@@ -332,7 +343,7 @@
             labelField1.Size = new Size(413, 63);
             labelField1.TabIndex = 1;
             labelField1.Text = "labelField1";
-            labelField1.TextAlign = ContentAlignment.MiddleRight;
+            labelField1.TextAlign = ContentAlignment.BottomRight;
             // 
             // tlpButtons
             // 
@@ -402,6 +413,7 @@
             bSqrt2.TabIndex = 7;
             bSqrt2.Text = "²√x";
             bSqrt2.UseVisualStyleBackColor = true;
+            bSqrt2.MouseClick += bSqrt2_Click;
             // 
             // b9
             // 
@@ -454,9 +466,6 @@
             Controls.Add(tlpLabel);
             Name = "Main";
             Text = "Calculator";
-            KeyDown += Main_KeyDown;
-            KeyPress += Main_KeyPress;
-            KeyUp += Main_KeyUp;
             tlpButtons.ResumeLayout(false);
             tlpLabel.ResumeLayout(false);
             tlpLabel.PerformLayout();
