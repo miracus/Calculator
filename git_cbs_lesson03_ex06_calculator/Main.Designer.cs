@@ -391,6 +391,7 @@
             // 
             // bC
             // 
+            bC.BackColor = Color.Red;
             bC.Dock = DockStyle.Fill;
             bC.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             bC.Location = new Point(207, 1);
@@ -399,7 +400,7 @@
             bC.Size = new Size(101, 57);
             bC.TabIndex = 6;
             bC.Text = "C";
-            bC.UseVisualStyleBackColor = true;
+            bC.UseVisualStyleBackColor = false;
             bC.MouseClick += bC_Click;
             // 
             // bSqrt2

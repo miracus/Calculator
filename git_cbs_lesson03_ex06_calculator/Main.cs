@@ -139,7 +139,8 @@ namespace git_cbs_lesson03_ex06_calculator
                     input = input.Replace(" - ", currentOperation);
                     labelField1.Text = input;
                 }
-            } else
+            }
+            else
             {
                 labelField1.Text = labelField2.Text + currentOperation;
                 input = labelField2.Text;
@@ -168,7 +169,8 @@ namespace git_cbs_lesson03_ex06_calculator
                     input = input.Replace(" - ", currentOperation);
                     labelField1.Text = input;
                 }
-            } else
+            }
+            else
             {
                 labelField1.Text = labelField2.Text + currentOperation;
                 input = labelField2.Text;
@@ -198,7 +200,8 @@ namespace git_cbs_lesson03_ex06_calculator
                     labelField1.Text = input;
 
                 }
-            } else
+            }
+            else
             {
                 labelField1.Text = labelField2.Text + currentOperation;
                 input = labelField2.Text;
@@ -228,7 +231,8 @@ namespace git_cbs_lesson03_ex06_calculator
                     labelField1.Text = input;
 
                 }
-            } else
+            }
+            else
             {
                 labelField1.Text = labelField2.Text + currentOperation;
                 input = labelField2.Text;
