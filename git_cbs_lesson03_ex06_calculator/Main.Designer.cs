@@ -391,7 +391,7 @@
             // 
             // bC
             // 
-            bC.BackColor = Color.Red;
+            bC.BackColor = SystemColors.Control;
             bC.Dock = DockStyle.Fill;
             bC.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             bC.Location = new Point(207, 1);
